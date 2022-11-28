@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа. 
+
+
+
+int num = new Random().Next(100,1000);
+Console.WriteLine($"Сгенерировано случайное число {num}");
+int x1 = num/ 1000;
+Console.WriteLine($"Наибольшая цифра этого числа это {x1}");
+
+
+
