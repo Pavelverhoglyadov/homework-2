@@ -2,10 +2,19 @@
 
 
 
-int num = new Random().Next(100,1000);
-Console.WriteLine($"Сгенерировано случайное число {num}");
-int x1 = num/ 1000;
-Console.WriteLine($"Наибольшая цифра этого числа это {x1}");
+Console.WriteLine("введите трехзначное число");
+int num1 = Convert.ToInt32(Console.ReadLine());
+if (num1 >= 100 && num1 <= 999);
+   
+
+else
+{
+    Console.WriteLine("число введино неверно");
+}
+int x1 = num1 / 10;
+int x2 = x1 % 10;
+
+Console.WriteLine($"вторая цифра этого числа {x2}");
 
 
 
