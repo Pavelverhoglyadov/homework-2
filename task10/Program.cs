@@ -9,7 +9,7 @@ if (num1 >= 100 && num1 <= 999);
 
 else
 {
-    Console.WriteLine("число введино неверно");
+    Console.WriteLine("третьей цифры числа нет");
 }
 int x1 = num1 / 10;
 int x2 = x1 % 10;
