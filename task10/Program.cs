@@ -14,6 +14,7 @@ else
 int x1 = num1 / 10;
 int x2 = x1 % 10;
 
+
 Console.WriteLine($"вторая цифра этого числа {x2}");
 
 
